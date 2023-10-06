@@ -1,0 +1,56 @@
+.navbar-container {
+    background-color : #ffffff;
+    width : 100%;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    box-shadow : 0 4px 12px 0 rgba(0,0,0,.05);
+    padding : 10px;
+    top : 0;
+    position : fixed;
+}
+
+.navbar-logo {
+    cursor : pointer;
+}
+
+.navbar-menus {
+    display : flex;
+    gap : 20px;
+}
+
+.navbar-menus span {
+    font-size : 14px;
+    color: #282c3f;
+    font-weight : 700;
+    cursor : pointer;
+}
+
+.navbar-search input {
+    border : none;
+    background-color : #f5f5f6;
+    height : 20px;
+    padding : 8px 10px 10px;
+    height : 40px !important;
+    border-radius : 4px;
+    width : 300px;
+    outline-color : gray;
+}
+
+.navbar-actions {
+    display : flex;
+    gap : 20px;
+}
+
+.navbar-action-data {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+}
+
+.navbar-action-data span{
+    font-size : 12px;
+    color : #000000;
+    font-weight : 700;
+    cursor : pointer;
+}
